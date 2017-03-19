@@ -15,7 +15,7 @@ namespace Automation.Functions.CodeGeneration.AddNugetFeed
                     path = Path.Combine(path, "nuget.config");
                 }
                 state = new AddNugetConfig.Process().Function(state, new { path = path });
-                state = new FileFindAndReplace.Process().Function(state, new { path = path, oldText = "</packageSources>", newText = $"<add key=\"{(string)process["name"]}\" value=\"{(string)process["value"]}\" /></packageSources>" });
+                state = new FileFindAndReplace.Process().Function(state, new { path = path, oldText = "</packageSources>", newText = $"<add key=\"{Guid.NewGuid().ToString()}\" value=\"{(string)process["value"]}\" /></packageSources>" });
                 return state;
             };
     }
