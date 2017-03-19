@@ -18,6 +18,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Automation.Functions.FileFi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Automation.Functions.CodeGeneration.AddNugetConfig", "Automation.Functions.CodeGeneration.AddNugetConfig\Automation.Functions.CodeGeneration.AddNugetConfig.csproj", "{5A1E40E6-C566-4722-8331-0E0E0B00586E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Automation.Functions.CodeGeneration.AddNugetFeed", "Automation.Functions.CodeGeneration.AddNugetFeed\Automation.Functions.CodeGeneration.AddNugetFeed.csproj", "{EEBED3A5-7BB8-4CFA-9733-8A87C281D937}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -44,6 +46,10 @@ Global
 		{5A1E40E6-C566-4722-8331-0E0E0B00586E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5A1E40E6-C566-4722-8331-0E0E0B00586E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5A1E40E6-C566-4722-8331-0E0E0B00586E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEBED3A5-7BB8-4CFA-9733-8A87C281D937}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEBED3A5-7BB8-4CFA-9733-8A87C281D937}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEBED3A5-7BB8-4CFA-9733-8A87C281D937}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEBED3A5-7BB8-4CFA-9733-8A87C281D937}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
