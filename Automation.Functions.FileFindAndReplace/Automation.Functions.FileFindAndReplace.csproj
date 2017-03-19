@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp1.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Automation.Functions.Abstractions" Version="1.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Automation.Functions.ReadFile\Automation.Functions.ReadFile.csproj" />
+    <ProjectReference Include="..\Automation.Functions.Replace\Automation.Functions.Replace.csproj" />
+    <ProjectReference Include="..\Automation.Functions.WriteFile\Automation.Functions.WriteFile.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -14,6 +14,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Automation.Functions.WriteF
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Automation.Functions.Replace", "Automation.Functions.Replace\Automation.Functions.Replace.csproj", "{F53263CF-D833-47CB-BEBF-4E2C854D2EF0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Automation.Functions.FileFindAndReplace", "Automation.Functions.FileFindAndReplace\Automation.Functions.FileFindAndReplace.csproj", "{8696D9C5-8DBC-4322-AAA5-5ED2490F3E89}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -32,6 +34,10 @@ Global
 		{F53263CF-D833-47CB-BEBF-4E2C854D2EF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F53263CF-D833-47CB-BEBF-4E2C854D2EF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F53263CF-D833-47CB-BEBF-4E2C854D2EF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8696D9C5-8DBC-4322-AAA5-5ED2490F3E89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8696D9C5-8DBC-4322-AAA5-5ED2490F3E89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8696D9C5-8DBC-4322-AAA5-5ED2490F3E89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8696D9C5-8DBC-4322-AAA5-5ED2490F3E89}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
