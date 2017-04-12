@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26228.9
+VisualStudioVersion = 15.0.26403.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Automation.Functions.ReadFile", "Automation.Functions.ReadFile\Automation.Functions.ReadFile.csproj", "{516CF963-BF38-49E6-956F-D8BAEE7A0A12}"
 EndProject
@@ -19,6 +19,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Automation.Functions.CodeGeneration.AddNugetConfig", "Automation.Functions.CodeGeneration.AddNugetConfig\Automation.Functions.CodeGeneration.AddNugetConfig.csproj", "{5A1E40E6-C566-4722-8331-0E0E0B00586E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Automation.Functions.CodeGeneration.AddNugetFeed", "Automation.Functions.CodeGeneration.AddNugetFeed\Automation.Functions.CodeGeneration.AddNugetFeed.csproj", "{EEBED3A5-7BB8-4CFA-9733-8A87C281D937}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Automation.Functions.CodeGeneration.AddNugetReference", "Automation.Functions.CodeGeneration.AddNugetReference\Automation.Functions.CodeGeneration.AddNugetReference.csproj", "{F4B25C70-9411-4775-82E2-F12C47802BB6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -50,6 +52,10 @@ Global
 		{EEBED3A5-7BB8-4CFA-9733-8A87C281D937}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EEBED3A5-7BB8-4CFA-9733-8A87C281D937}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EEBED3A5-7BB8-4CFA-9733-8A87C281D937}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4B25C70-9411-4775-82E2-F12C47802BB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4B25C70-9411-4775-82E2-F12C47802BB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4B25C70-9411-4775-82E2-F12C47802BB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4B25C70-9411-4775-82E2-F12C47802BB6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
